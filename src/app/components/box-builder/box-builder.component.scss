@@ -1,0 +1,28 @@
+.box-wrapper {
+  margin-top: 15px;
+}
+
+.box {
+  color: #FFFFFF;
+  margin: 5px;
+  padding: 5px;
+
+  &:nth-child(odd) {
+    // Blue color
+    background-color: #0000FF;
+  }
+
+  &:nth-child(even) {
+    // Black color
+    background-color: #000000;
+  }
+
+  &:nth-child(5n) {
+    // Orange color
+    border-top: 3px solid #FFA500;
+  }
+}
+
+.btn-margin {
+  margin: 0 15px 0 0;
+}
